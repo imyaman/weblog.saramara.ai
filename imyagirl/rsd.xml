@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>Movable Type</engineName>
+<engineLink>http://www.sixapart.com/movabletype/</engineLink>
+<homePageLink>https://connexus-preview.sys5.co/imyagirl/</homePageLink>
+<apis>
+<api name="MetaWeblog" preferred="true" apiLink="https://connexus.sys5.co/" blogID="2" />
+<api name="MovableType" preferred="false" apiLink="https://connexus.sys5.co/" blogID="2" />
+<api name="Blogger" preferred="false" apiLink="https://connexus.sys5.co/" blogID="2" />
+<api name="Atom" preferred="false" apiLink="https://connexus.sys5.co//weblog" blogID="2" />
+</apis>
+</service>
+</rsd>
