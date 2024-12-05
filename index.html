@@ -131,22 +131,17 @@ new admixer_ad({
 	adunit :[
 		{
 			adunit_id : "20097391",
-                        display_id : "display_admixer_20097391"
-                },
-		{
-			adunit_id : "20097392",
-                        display_id : "display_admixer_20097392"
-                }
+            display_id : "display_admixer_20097391"
+        }
 		],
 	coppa : 0, //아동 대상 서비스 취급용 태그 (0:아동대상 미지정, 1:아동대상 지정)
-        admixer_log : false, //로그 확인 설정(default : false[미설정],), 테스트 광고가 내려오는 것이 아닌 로그 확인용    
+        admixer_log : true, //로그 확인 설정(default : false[미설정],), 테스트 광고가 내려오는 것이 아닌 로그 확인용    
         admixer_log_display_id : "display_admixer_log" //테스트의 로그가 표시될 영역 Div ID 
 });
 </script>
 
 <!-- Adunit이 노출될 영역에 해당 div태그를 삽입합니다. -->
 <div id="display_admixer_20097391"></div>
-<div id="display_admixer_20097392"></div>
 
 <!-- 테스트의 로그가 표시될 영역에 해당 div태그를 삽입합니다 -->
 <div id="display_admixer_log"></div>
